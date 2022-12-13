@@ -1,6 +1,3 @@
-from aoc.exceptions import DesignError
-
-
 def part1(file):
     return max(sum(foods) for foods in foods_per_elf(file))
 
