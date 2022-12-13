@@ -31,3 +31,9 @@ Or you can run it with input directly as an argument
 ```bash
 $ python -m aoc 1 1 abcdefg
 ```
+
+## Goals
+
+Unlike past years, I am not setting out to document what I'm doing terribly well, or write Big-O notes, or anything
+like that. I just don't program much anymore, and I'm doing this for fun like one might do the crossword with their
+coffee in the morning. Also trying not to forget too much of what I've learned about Python.
