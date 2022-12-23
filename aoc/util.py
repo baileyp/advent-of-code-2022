@@ -27,3 +27,17 @@ class defaultlist(list):
     def __getitem__(self, index):
         self._fill(index)
         return list.__getitem__(self, index)
+
+
+def memoize(fn):
+    memo = {}
+
+    def memozied(*args):
+        if args in memo:
+            return memo[args]
+        else:
+            result = fn(*args)
+            memo[args] = result
+            return result
+
+    return memozied
